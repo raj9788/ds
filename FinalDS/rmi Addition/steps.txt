@@ -1,0 +1,19 @@
+
+### Assignment 1:
+
+Terminal 1:
+
+    javac *.java
+    rmic AddServerImpl
+
+Terminal 2:
+
+    rmiregistry
+
+Terminal 3:
+
+    java AddServer
+
+Terminal 4:
+
+    java AddClient 127.0.0.1 5 8  // The Number of Arguments are Specified after localhost address.

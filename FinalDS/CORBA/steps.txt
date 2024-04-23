@@ -1,0 +1,11 @@
+### Assignment 2: (if You are getting error in this or next assignment then issue is with Java Version it works with Java 8 only as it is depreciated after Java 8 :)     
+Terminal 1:
+
+    idlj -fall ReverseModule.idl
+    javac *.java ReverseModule/*.java
+    orbd -ORBInitialPort 1056&
+    java ReverseServer -ORBInitialPort 1056& 
+
+Terminal 2:
+
+    java ReverseClient -ORBInitialPort 1056 -ORBInitialHost localhost

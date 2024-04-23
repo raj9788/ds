@@ -1,0 +1,18 @@
+
+
+                                                FIRST RUN SERVER 
+                                                USING TTHIS
+--------------------------------------------   javac *.java --------------------------------------------- compile all program
+-------------------------------------------- java ClockServer ----------------------------------------------- 
+
+
+
+
+/*
+
+                                                        After running server run client
+                                                        using this      
+-------------------------------------------------------- java ClockClient -------------------------------------
+                                                        if multiple client required open new terminal and follow above steps/ commands
+                                                        */
+*/

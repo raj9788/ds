@@ -1,0 +1,7 @@
+module ReverseModule
+{
+interface ReversePOA
+{
+	string reverse_string(in string str);
+};
+};

@@ -1,0 +1,22 @@
+
+
+-------------------------------------code for server-----------------------------
+1] open netbeans
+2] create new project java web application 
+3] finish ( no frameworks )
+4] Right click on Project Name->New->web Service
+5] Right Click on Web Serive-> Add Operation
+6]Right click on project -> click on "clean and build" -> click on "Deploy"
+
+
+-------------------------------code for client ---------------------------------
+1) open netbeans
+2) create new project java web application 
+3] finish ( no frameworks )
+4] Right click on Project Name->New->web Service Client(In web service client browse the path of function created in web server)
+5) Add form to index.html file present in "web pages" folder of client.
+6) Create Servelet     click on "sources packages"-> click on "Servelet"(Servelet name === form action value present in inex.html)
+7) IMP: while creating servelet be cautious about ticking the check after giving name to servelet
+8) Drag and drop the method in "web services" to servelet file
+9) Parse the data coming from client in servelet file and run the above dragged method in body of servelet file
+10) right click in index.html and slect run file (dont run and build)
